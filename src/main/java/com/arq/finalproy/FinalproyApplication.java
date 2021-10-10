@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
-@SpringBootApplication(scanBasePackages = {"views"})
+@SpringBootApplication(scanBasePackages = {"routes"})
 @EnableMongoRepositories(basePackageClasses=TestRepository.class)
 public class FinalproyApplication {
 	public static void main(String[] args) {

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package views;
+package routes;
 
 import Repositories.TestRepository;
 import models.test;
@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author ricardocazares
  */
  @RestController
-public class routes {
+public class TestRoute {
      
     @Autowired
     TestRepository repo;
